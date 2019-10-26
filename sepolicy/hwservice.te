@@ -1,0 +1,2 @@
+type android_hardware_interface_rpi3gpio_hwservice, hwservice_manager_type;
+

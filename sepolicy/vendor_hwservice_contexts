@@ -1,0 +1,2 @@
+android.hardware.interface.rpi3gpio::IRpi3gpio        u:object_r:android_hardware_rpi3gpio_hwservice:s0
+

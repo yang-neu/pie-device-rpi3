@@ -1,0 +1,9 @@
+type hal_rpi3gpio, domain;
+type hal_rpi3gpio_exec, exec_type, file_type, vendor_file_type;
+
+init_daemon_domain(hal_rpi3gpio)
+
+allow hal_rpi3gpio vndbinder_device:chr_file { ioctl open read write };
+add_hwservice(hal_rpi3gpio, android_hardware_interface_rpi3gpio_hwservice)
+binder_call(hal_rpi3gpio, hwservicemanager)
+
