@@ -30,7 +30,7 @@ $ repo init -u git://mirrors.ustc.edu.cn/aosp/platform/manifest -b android-9.0.0
 2. Download Raspbery Pi 3 device configuration files
 ```bash
 $ mkdir -pv device/brobwind
-$ git clone git://github.com/brobwind/pie-device-brobwind-rpi3 device/brobwind/rpi3
+$ git clone git://github.com/yang-neu/pie-device-rpi3 device/brobwind/rpi3
 ```
 
 3. Add local manifest file
